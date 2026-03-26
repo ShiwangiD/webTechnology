@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .main{
+            height: 200px;
+            width: 200px;
+            margin: auto;
+            margin-top: 50px;
+            background-color: rgb(204, 47, 178);
+            /* transform: translate(20px,40px); */
+            border:2px solid black;
+            /* skew( , ) deg rad turn
+            SkewX()deg rad turn
+            Skewy() deg rad turn */
+            transform:skew(30deg,30deg);
+        }
+        .main1{
+             height: 200px;
+            width: 200px;
+            margin: auto;
+            margin-top: 50px;
+            background-color: rgb(204, 47, 178);
+            /* transform: translate(20px,40px); */
+            border:2px solid black;
+            /* skew( , ) deg rad turn
+            SkewX()deg rad turn
+            Skewy() deg rad turn */
+            /* transform:skew(0.3turn,0.3turn); */
+
+            /* transform:rotate(deg/rad);
+            rotatex(deg/rad);
+            rotatey(deg/rad);
+            rotatez(deg/rad);
+             */
+            /* transform: rotate(70deg); */
+             transform: rotateX(70deg);
+             box-shadow: 0px 0px 10px 5px gray;
+        }
+        .main2{
+              height:100px;
+            width: 100px;
+            margin: auto;
+            margin-top: 50px;
+            background-color: rgb(204, 47, 178);
+            border:2px solid black;
+            /* transform: scaleX(-2); */
+              transform: scaleY(-2);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    </div>
+    <div class="main1"></div>
+     <div class="main2">scale</div>
+</body>
+</html>
