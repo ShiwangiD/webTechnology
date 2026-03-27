@@ -8,7 +8,7 @@
 // console.log(5**2);
 
 
-// change 1
+// challenge 1
 
 // let pricePerItem = 150;
 // let quantity = 3;
@@ -40,7 +40,7 @@
 // a%=4;
 // console.log(a);
 
-//4. Comparison Operator (check things)
+//3. Comparison Operator (check things)
 
 // == check only value and === first check the data type then value 
 
@@ -56,7 +56,7 @@
 // console.log(5!=="5");
 // console.log(5!==5);
 
-//5. Logical operators :=
+//4. Logical operators :=
 
 //AND operator &&(both condition are true) , OR Operator ||(one condition is true then true), Not opertor ! (reverse )
 
@@ -103,7 +103,7 @@
 
 // let result = a++ + ++a -10;
 
-//6. Ternery Operator  condition? true:false : - work on three operand 
+//5. Ternery Operator  condition? true:false : - work on three operand 
 
 // let age=7;
 // let result = age>=18 ? "drive":"cant drive";
@@ -136,7 +136,7 @@
 // let result =(a>b)?(a>c ? a:c):(b>c ? b:c);
 // console.log(result);
 
-//7.bitwise Operator 
+//6.bitwise Operator 
 
 console.log(5&3);
 console.log(4&7);
