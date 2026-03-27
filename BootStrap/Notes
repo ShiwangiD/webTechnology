@@ -1,1 +1,15 @@
+Bootstrap usually refers to Bootstrap, a popular open-source framework used to build responsive and mobile-first websites quickly.
+1. Key Features
+Responsive Design → Websites adjust automatically to mobile, tablet, and desktop screens
+Grid System → Easy layout creation using rows and columns
+Pre-built Components → Buttons, forms, navbars, cards, modals, etc.
+CSS Utilities → Quick styling (spacing, colors, alignment)
+JavaScript Plugins → Interactive features like dropdowns, sliders, popups
+2. Why Use Bootstrap?
+Saves time in development
+Ensures consistency in design
+Works well across browsers
+Beginner-friendly
+3. Example Use
 
+You can quickly create a webpage with a navbar, buttons, and layout using Bootstrap classes instead of writing full CSS.
