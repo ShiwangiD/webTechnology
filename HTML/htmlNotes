@@ -1,1 +1,21 @@
+HTML stands for HyperText Markup Language. It is the standard language used to create and design web pages by defining the structure of content on the web.
 
+1.HTML 1.0 (1991)
+  First version by Tim Berners-Lee
+  Basic structure and text formatting only
+2.HTML 2.0 (1995)
+  Standardized by IETF
+  Added forms, tables, and more tags
+3.HTML 3.2 (1997)
+  W3C standard
+  Added fonts, colors, scripting (JavaScript), applets
+4.HTML 4.01 (1999)
+  Introduced CSS support
+  Separation of content and design
+  Deprecated some older tags
+5.XHTML 1.0 (2000)
+  HTML with strict XML syntax
+  Ensured better compatibility
+6.HTML5 (2014)
+  Modern standard
+  Added semantic tags (<header>, <footer>), multimedia (<audio>, <video>), canvas, local storage, and APIs for web apps
