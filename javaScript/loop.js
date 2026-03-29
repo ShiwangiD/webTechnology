@@ -1,3 +1,9 @@
+// LOOP :=== In JavaScript, a loop is used to repeat a block of code multiple times until a condition is met.
+// why loops are used : 1.Avoid writing the same code again and again
+// 2.Work with arrays or lists
+// 3.Automate repetitive tasks
+
+
 // For Loop :=== Used when you know how many times to run the loop.
 
 // for(let i=1;i<=10;i++){
@@ -64,7 +70,7 @@
     
 // }
 
-// challenge 3 calculate  sum of n numbers.
+// challenge 3 : calculate  sum of n numbers.
 
 // let n = 10;
 // let sum = 0;
@@ -73,7 +79,7 @@
 // }
 // console.log(sum);
 
-// challenge 4 calculate the sum of numbers from 'm' to 'n'.
+// challenge 4 : calculate the sum of numbers from 'm' to 'n'.
 
 // let m = Number(prompt("enter the value of m"));
 // let n = Number(prompt("enter the value of n "));
@@ -83,7 +89,7 @@
 // }
 // console.log(sum `${sum}`);
 
-// challenge 3  : print all odd number from 0 to 'n'
+// challenge 5 : print all odd number from 0 to 'n'
 
 // let n = Number(prompt("enter the number of n value "));
 // for(let i=0;i<=n;i++){
@@ -91,9 +97,9 @@
 //         console.log("number is odd :",i);
 //     }
 
-// challenge 4 create a "number know" game .(ask the user to keep guessing the number until the user enters correct guess).
+// challenge 6 : create a "number know" game .(ask the user to keep guessing the number until the user enters correct guess).
 
-// challenge 5 : simple password  checker fixed attempts
+// challenge 7 : simple password  checker fixed attempts
 
 // let password = "lovely";
 // let noOfattempt = 0;
@@ -108,7 +114,7 @@
 //     }   
 // }
 
-// create a program to find  the factorial of 'n'
+// 8 : create a program to find  the factorial of 'n'
 
 // let n = 7;
 // let fact =1;
