@@ -1,3 +1,6 @@
+// Variable :=== A variable is a named container used to store data in a program.
+
+
 // console.log("hello world");
 // console.log(5+5)
 // part of code which is not execute ----comment
