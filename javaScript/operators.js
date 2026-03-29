@@ -88,8 +88,8 @@
 
 // Increament and decreament Operator (++ and --)
 
-//pre Increament (++a first use then increment and decreament)
-//post Increament and decreamenet(a++ increament and decreament then use)
+//pre Increament & decreament (++a first use then increment and decreament)
+//post Increament & decreament(a++ first increament and decreament then use)
 
 // let a=5;
 // console.log(a);
