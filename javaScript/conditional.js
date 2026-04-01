@@ -1,12 +1,12 @@
 //conditional statement :== lets your code make decisions it checks if something is true or false , and then runs certain runs certain code based on that
 
-// let productsInStock = 3;
-// if(productsInStock <= 0){
-//     console.log("product is out of stock");
-// }
-// else{
-//     console.log("product is in stock");
-// }
+let productsInStock = 3;
+if(productsInStock <= 0){
+    console.log("product is out of stock");
+}
+else{
+    console.log("product is in stock");
+}
 
     
 let wheather = "rainy";
