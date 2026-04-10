@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function handleInputFeild(event){
+    console.log(event.target.name);
+    if(event.target.id="age" && event.target.value<=18){
+        alert("not a valid age");
+    }
+}
+function handleKeyUp(){
+    console.log("handleKeyUp");
+}
+function handleKeyDown(){
+    console.log("handle key down")
+}
+function handleFocus(){
+    console.log("start typing.....");
+}
+function handleBlur(){
+    console.log("stop typing.....");
+}
+
+
+    </script>
+</head>
+<body>
+    <h1>Input Feild Events</h1>
+    <input type="text" placeholder="enter name" 
+    oninput="handleInputFeild(event)"
+    onkeyup="handleKeyUp()"
+    onkeydown="handleKeyDown()"
+    onfocus="handleFocus()"
+    onblur="handleBlur()">
+
+    <input type="text" placeholder="enter age" oninput="handleInputFeild(event)"id="age" name="userAge">
+    <input type="email" placeholder="enter email" oninput="handleInputFeild(event)" id="email" name="userEmail">
+   
+</body>
+</html>
