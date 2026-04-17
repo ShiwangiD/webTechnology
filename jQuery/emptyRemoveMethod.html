@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            border: 5px red ridge;
+            height: 200px;
+            width: 250px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="div1">
+        <h1>this is heading</h1>
+        <p>this is paragragh</p>
+    </div> -->
+
+    <h1>This is Heading</h1>
+    <input type="button" value="empty" id="btn1">
+    <input type="button" value="remove" id="btn2">
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $("#btn1").click(function(){
+            //     $("#div1").empty();
+
+            // });
+
+            //  $("#btn2").click(function(){
+            //     $("#div1").remove();
+
+            // });
+
+
+             $("#btn1").click(function(){
+                $("h1").empty();
+
+            });
+
+             $("#btn2").click(function(){
+                $("h1").remove();
+
+            });
+
+        });
+    </script>
+</body>
+</html>

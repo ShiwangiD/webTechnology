@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <p>Welcome to Jquery!</p>
+    <h1>hello world</h1>
+    <input type="button" value="click" id="btn">
+
+    <!-- <script src="jquery.js"></script> -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("p").css("font-family","cooper");
+                $("h1").css({
+                    "color":"red",
+                    "font-size":"40px",
+                    "background-color":"yellow"
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

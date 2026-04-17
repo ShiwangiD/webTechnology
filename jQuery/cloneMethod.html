@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            height: 150px;
+            width:250px;
+            border: 5px solid green;
+            background-color: yellow;
+        }
+
+        #s1{
+            height: 300px;
+            width:250px;
+            border: 5px solid pink;
+            background-color: rgb(83, 83, 3);
+        }
+    </style>
+</head>
+<body>
+
+    <section id="s1">
+       <h1>Hello World!</h1>
+
+    </section>
+    <div id="div1">
+        <h1>This is Heading</h1>
+        <p>This is paragragh</p>
+
+    </div>
+    <br>
+    <input type="button" value="create a copy" id="btn">
+
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+               $("#div1").clone().appendTo("#s1");
+            });
+        });
+    </script>
+</body>
+</html>

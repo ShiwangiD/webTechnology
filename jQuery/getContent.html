@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="p1">This is <b><i>hey</i>new</b>  paragragh</p>
+    <h1 id="p2">This is my second paragragh</h1> -->
+    
+    <!-- <input type="text" placeholder="Enter name" id="txt1"> -->
+     <!-- <textarea name="" id="txt1" col="30" row="10"></textarea> -->
+      <!-- <label for="">Gender:</label>
+      <label for="">Female</label>
+      <input type="radio" name="gender" value="Female">
+       <label for="">Male</label>
+      <input type="radio" name="gender" value="Male"> -->
+
+
+      <!-- <select name="" id="myList">
+        <option value="-1">Select</option>
+        <option value="apple">apple</option>
+        <option value="papaya">papaya</option>
+        <option value="orange">orange</option>
+      </select>
+ -->
+   
+    <a href="http://www.google.com/" title="Google" style="font-size:50px">click to open google</a>
+
+    <input type="button" value="click" id="btn">
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+            //   var a =  $("#p1").text();
+            //   alert(a);
+
+            // var b = $("#p1").html();
+            // alert(b);
+
+        //    var c = $("input[name='gender']:checked").val();
+        //    alert(c);
+
+
+        // var item = $("#myList").val();
+        // if(item != "-1"){
+        //    alert(item);
+        // }
+        // else
+        // {
+        //     alert("please select a fruits");
+        // }
+        
+        
+    //    var a = $("a").attr("href");
+    //    alert(a);
+            
+       var a = $("a").attr("style");
+       alert(a);
+            
+
+
+            });
+            
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- ### get Content method:==>
+text(): - get only text not elements.
+html():- get text with elements
+val() :- used to get form element.
+attr() -->

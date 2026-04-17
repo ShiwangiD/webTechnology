@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #div1{
+        height: 120px;
+        width:250px;
+        border:5px rgb(68, 20, 20) ridge;
+        background-color: aqua;
+        color:red;
+        /* display: none; */
+      }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1>This is div</h1>
+        <p>This my paragragh</p>
+    </div>
+    <br>
+    <input type="button" value="fadeTo" id="btn">
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#btn").click(function(){
+
+          //  $("#div1").fadeIn(3000,function(){
+          //    alert('fade in effect...');
+          //  });
+
+        //  $("#div1").fadeOut(3000,function(){
+        //   alert('fade out effect...');
+        //  });
+
+        // $("#div1").fadeToggle(3000);
+        $("#div1").fadeTo(2000,0.5,function(){
+          alert('this is fadeTo Effect...');
+        });
+
+        });
+      });
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- ### Effects:==>syntax : ===> $(selector).fadeIn(speed,call back).
+### Fading method:==> jquery following fade method :
+two arguement :fadeIn(speed,callback).
+1. fadeIn()
+2. fadeOut()
+3. fadeToggle()
+4.fadeTo(): used to for opacity -->

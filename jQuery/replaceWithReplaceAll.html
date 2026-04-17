@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            border:5px solid greenyellow;
+        }
+        #div2{
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            border:5px solid greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p id="p1">This is paragragh 1</p>
+     <p id="p2">This is paragragh 2</p>
+      <p id="p3">This is paragragh 3</p> -->
+
+      <div id="div1">
+        <p>This is paragragh 1</p>
+        <p>This is paragragh 2</p>
+        <p>This is paragragh 3</p>
+      </div>
+      <br>
+      <br>
+       <div id="div2">
+         <p>This is paragragh 1</p>
+        <p>This is paragragh 2</p>
+        <p>This is paragragh 3</p>
+       </div>
+    
+    <br>
+    <input type="button" value="click" id="btn">
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                // var a = prompt("Enter Some Text");
+                // $("#p1").replaceWith("<h1>"+ a +"</h1>");
+                // $("#p1:lt(2)").replaceWith("<h1>"+ a +"</h1>");
+
+                // $("<h1> Hello World</h1>").replaceAll("p");
+                $("<h1> Hello World</h1>").replaceAll("p:first-child");
+                $("<h1> Hello World</h1>").replaceAll("p:last-child");
+
+
+
+
+            });
+        });
+    </script>
+</body>
+</html>

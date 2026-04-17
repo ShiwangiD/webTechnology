@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form action="">
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="">Female:</label>
+        <input type="radio" name="gender" value="Male">
+        <label for="">Male:</label>
+        <br><br>
+        <input type="button" value="submit" id="btn">
+    </form> -->
+
+
+
+    <form action="">
+        <label >Hobbies:</label>
+        <label >Sports:</label>
+        <input type="checkbox" name="hobbies" value="Sports">
+         <label >Swimming:</label>
+        <input type="checkbox" name="hobbies" value="Swimming">
+         <label >Reading:</label>
+        <input type="checkbox" name="hobbies" value="Reading">
+         <label >Writting:</label>
+        <input type="checkbox" name="hobbies" value="Writting">
+        
+        <br><br>
+        <input type="button" value="submit" id="btn">
+    </form>
+    <br>
+    <div id="OutputDiv">
+
+    </div>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+            //     var option = $('input[type="radio"]:checked');
+            //     if(option.length > 0)
+            // {
+            //         $('#OutputDiv').html(option.val() + " is Checked.");
+            // }
+            // else{
+            //      $('#OutputDiv').html( "No Radio Button Checked...");
+
+            // }
+
+
+            var option = $('input[type="checkbox"]:checked');
+            var string = option.length + "checkebox Checked <br/>";
+            if(option.length > 0)
+            {
+                option.each(function(){
+                    string+= $(this).val() + "<br/>";
+                });
+                $('OutputDiv').html(string);
+            }
+            else
+            {
+                
+                $('#OutputDiv').html( "No Radio Button Checked...");
+$
+            }
+
+            });
+        });
+    </script>
+</body>
+</html>

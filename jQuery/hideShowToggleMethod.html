@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+</head>
+<body>
+    <h1>welcome to JQuery</h1>
+    <h1>Welcome to java Script libreary!</h1>
+    
+    <input type="button" value="Hide" id="HideBtn">
+    <input type="button" value="show" id="ShowBtn">
+    <input type="button" value="Hide And Show" id="HideShowBtn">
+
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $("#HideBtn").click(function(){
+            //     $("h1").hide();
+            // });
+
+            //  $("#HideBtn").click(function(){
+            //     $("h1").hide("slow");
+            // });
+
+            //  $("#HideBtn").click(function(){
+            //     $("h1").hide("fast");
+            // });
+
+            //  $("#HideBtn").click(function(){
+            //     $("h1").hide(3000,function(){
+            //         alert('h1 hide completely');
+            //     });
+            // });
+
+            // $("#ShowBtn").click(function(){
+            //     $("h1").show();
+            // });
+
+            //  $("#HideShowBtn").click(function(){
+            //     $("h1").toggle();
+            // });
+
+            $("#HideBtn").click(function(){
+                $(this).hide();
+            })
+
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- ### Hide,Show And Toggle :===> these are hold two arguement 1. is speed(slow,fast and milliSecond) and 2. is callback(function call).
+ 
+### this keyword :===> this is used to current element-->

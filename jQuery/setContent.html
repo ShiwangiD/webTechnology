@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="p1">welcome to Jquery!</h1> -->
+
+    <!-- <input type="text" placeholder="Enter Name" id="txt" value="good"> -->
+
+    <a href="http://www.google.com/" title="Google" target="_blank">Click to open Google</a>
+    <input type="button" value="click" id="btn">
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                // $("#p1").text('learning Never end!');
+
+                // $("#p1").html('learning Never <u> end!</u>');
+                // $("#txt").val("lovely dubey");
+
+                // $("#btn").attr("href","http://www.hotmail.com/");
+                $("#btn").attr({
+                    href:"http://www.hotmail.com/",
+                    title:"Hotmail"
+                });
+                $("a").text("click to open Hotmail");
+
+
+
+            });
+        });
+    </script>
+</body>
+</html>

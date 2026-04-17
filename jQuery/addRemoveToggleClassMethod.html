@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .c1{
+            background-color: yellow;
+        }
+        .c2{
+            font-family: cooper;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Hellooo Jquery!</h1>
+    
+    <input type="button" value="Add" id="btn">
+    <input type="button" value="remove" id="btn2">
+      <input type="button" value="toggle" id="btn3">
+    <script src="jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+
+               $("h1").addClass("jumbotron text-center bg-primary");
+            });
+            $("#btn2").click(function(){
+                $("h1").removeClass("jumbotron text-center bg-primary");
+            });
+
+             $("#btn3").click(function(){
+                $("h1").toggleClass("jumbotron text-center bg-primary",false);
+            });
+        });
+    </script>
+</body>
+</html>

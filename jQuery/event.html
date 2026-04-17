@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Jquery!</h1>
+    <!-- <br/>
+    <input type="text" id="txt">
+    <input type="button" value="click" id="btn"> -->
+    <script src="jquery.js"></script>
+    <script>
+     $(document).ready(function(){
+        // $("#btn").click(function(){
+        //     $("h1").css("color","red");
+        // });
+        
+
+        // $("#btn").contextmenu(function(){
+        //     $("h1").css("color","red");
+        // });
+
+        //  $("#btn").dblclick(function(){
+        //     $("h1").css("color","red");
+        // });
+
+        //  $("#btn").mouseenter(function(){
+        //     $("h1").css("color","red");
+        // });
+
+        //  $("#btn").mouseleave(function(){
+        //     $("h1").css("color","red");
+        // });
+
+        //  $("#btn").mousedown(function(){
+        //     $("h1").css("color","red");
+        // });
+
+        //  $("#btn").mouseup(function(){
+        //     $("h1").css("color","red");
+        // });
+
+        //  $("#txt").focus(function(){
+        //     $("#txt").css("background-color","green");
+        // });
+
+        //  $("#txt").blur(function(){
+        //     $("#txt").css("background-color","blue");
+        //  });
+
+        $("h1").on({
+            mouseenter: function(){
+                $("h1").css("background-color","red");
+            },
+            mouseleave: function(){
+                $("h1").css("background-color","aqua");
+            },
+            click: function(){
+                $("h1").css("background-color","green");
+            },
+        });
+
+
+
+     });
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- ### Events :==> All the different visitor's actions that a web page can respond to are called events.
+An event  represent the precise moment when something happens. 
+ex-- moving a mouse over an element
+     select a radio button 
+     clicking on an element.
+     
+     ### contextmenu():== the function is executed, where the right mouse button is clicked.
+     ### on() :==  the on() method attaches one or more event handlers for the selected elements. -->

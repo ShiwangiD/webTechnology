@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <select name="" id="list1">
+        <option value="-1">Select Fruit</option>
+        <option value="apple">Apple</option>
+        <option value="papaya">papaya</option>
+        <option value="lichi">lichi</option>
+        <option value="grapes">grapes</option>
+    </select> -->
+
+    <!-- <input type="text" placeholder="enter your name:" id="txt"> -->
+
+    <!-- <textarea placeholder="enter something" id="txt"  cols="30" rows="10"></textarea>
+
+    <br>
+    <br>
+    <input type="button" value="click" id="btn">
+    <br>  -->
+    <h1 id="result"></h1>
+
+
+    <form action="" id="myForm">
+        <input type="text" required placeholder="Enter your name :" id="fname">
+        <input type="text" required placeholder="Enter your name :" id="lname">
+        <input type="submit" value="submit">
+    </form>
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function(){
+        // $("#btn").click(function(){
+        //     var item = $("#list").val();
+        //     if(item == "-1")
+        // {
+        //     alert('please select the fruits');
+        // }
+        // else
+        // {
+        //     $("#result").text("You have selected : "+item);
+        // }
+
+        // });
+
+        //  $("#list1").change(function(){
+        //     var item = $("#list1").val();
+        //     if(item == "-1")
+        // {
+        //     alert('please select the fruits');
+        // }
+        // else
+        // {
+        //     $("#result").text("You have selected : "+item);
+        // }
+
+        // });
+
+        //   $("#txt").change(function(){
+        //     var data = $("#txt").val();
+        //     $("#result").text(data);
+        //   });
+
+        //   $("#txt").select(function(){
+        //    alert("you have selected the text...");
+        //   });
+
+        // $("#myForm").submit(function(){
+        //     alert('form has been submitted!');
+        // });
+
+         $("#myForm").submit(function(event){
+            evet.preventDefault();
+            var fname = $("#fname").val();
+             var lname = $("#lname").val();
+            //  alert(fname + " "+ lname);
+             $("#result").text(fname + " " + lname);
+        });
+
+           
+      });
+    </script>
+</body>
+</html>
