@@ -1,1 +1,28 @@
+CSS :== CSS (Cascading Style Sheets) is a stylesheet language used to control how HTML content looks on a webpage—things 
+like colors, layouts, fonts, spacing, and responsiveness. It separates design from structure, making websites easier to maintain.
 
+1. CSS1 (1996)
+Introduced by the World Wide Web Consortium
+Basic styling: fonts, colors, spacing, alignment
+Very limited but laid the foundation.
+
+2. CSS2 (1998)
+Added more advanced features:
+Positioning (absolute, relative)
+Z-index (layering)
+Media types (screen, print)
+Improved layout control.
+
+3. CSS2.1 (2011)
+Refined version of CSS2
+Fixed bugs and improved compatibility across browsers
+Became the stable standard for years.
+
+4. CSS3 (from ~2011 onward)
+Not a single version—split into modules
+Major improvements:
+Animations & transitions
+Flexbox and Grid layouts
+Rounded corners, shadows, gradients
+Media queries (responsive design)
+Modern web design relies heavily on CSS3 features.
