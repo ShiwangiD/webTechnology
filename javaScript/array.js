@@ -1,4 +1,4 @@
-// Array :=== In JavaScript, an array is a dynamic, ordered collection of elements that can store values of any data type, where each element is accessed using a zero-based index. Internally, JavaScript arrays are object-based and optimized for indexed access.
+// Array := In JavaScript, an array is a dynamic, ordered collection of elements that can store values of any data type, where each element is accessed using a zero-based index. Internally, JavaScript arrays are object-based and optimized for indexed access.
 // typeof array is object.
 // array are mutable (in change origional value );
 
@@ -25,7 +25,7 @@
 // console.log(arr);
 // console.log(arr1.fill(0));
 
-// Indexing :=== start 0 
+// Indexing := start 0 
 
 // let arr6 = [12,34,5,6,7,9];
 // console.log(arr6[3]);
@@ -100,7 +100,7 @@
 // console.log(heroes);
 // console.log(heroes.flat(2));
 
-// sort method :==
+// sort method :=
 
 let arr = [10,5,2,1,7];
 let heroes = ["spiderman","ironman","hulk","hawkeye","wanda"];
@@ -112,7 +112,7 @@ arr.sort((a,b)=>{
 });
 console.log(arr);
 
-// map :===  Return a new array with the updated values,map() loops through an array and applies a function to every element.
+// map := Return a new array with the updated values,map() loops through an array and applies a function to every element.
 
 // Notes := map is higher order function .
 
@@ -122,7 +122,7 @@ let arr = [5,6,7,8,9,2];
 
 // })
 
-// for-Each loop :== forEach() executes a function once for every element in the array.
+// for-Each loop :=forEach() executes a function once for every element in the array.
 
  arr.forEach((elem)=>{
     return elem*2;
@@ -130,7 +130,7 @@ let arr = [5,6,7,8,9,2];
 console.log(arr);
 
 
-// filter :== filter() goes through each element and keeps only those that satisfy a condition (true),It does not modify the original array.
+// filter := filter() goes through each element and keeps only those that satisfy a condition (true),It does not modify the original array.
 
 let filterArr = arr.filter(
     (elem,indexedDB, arr)=>{
@@ -139,9 +139,23 @@ let filterArr = arr.filter(
 console.log(filterArr);
 
 
-// reduce :== reduce() takes each element of the array and reduces it step by step into one final result (like a number, object, string, etc.).
+// reduce := reduce() takes each element of the array and reduces it step by step into one final result (like a number, object, string, etc.).
 
 let result = arr.reduce((preVal,currVal)=>{
     return preVal + currVal;
 },20)
 console.log(result);
+
+let now = new Date();
+console.log(now.getDay());
+console.log(now.getMonth());
+console.log(now.getFullYear());
+console.log(now.getDate());
+console.log(now.getHours());
+console.log(now.getMinutes());
+console.log(now.getSeconds());
+
+let now1 = Date.now();
+console.log(now1);
+const dates =  new Date(0);
+console.log(dates.toString);
